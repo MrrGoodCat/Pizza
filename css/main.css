@@ -114,7 +114,6 @@ a:active .fa-circle{
     display: -o-flex;
     display: flex;
     justify-content: left;
-    padding-top: 35px
 }
 .logo-brown {
     font-style: italic;
@@ -135,12 +134,22 @@ a:active .fa-circle{
 
 
 /*   Site Navigation   */
-.row {
-    height: 120px;
+.dark-menu {
+    
     background-color: rgba(0, 0, 0, .35);
 }
+.row {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    height: 120px;
+}
 .navigation {
-    padding-top: 40px;
+
     
 }
 
