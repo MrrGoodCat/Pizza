@@ -114,15 +114,18 @@ $(document).ready(function() {
             }, 'xml');
 
         });
-    
-    $('.owl-carousel').owlCarousel({
-        items:4,
-        loop:false,
-        center:true,
-        margin:10,
-        URLhashListener:true,
-        autoplayHoverPause:true,
-        startPosition: 'URLHash'
-    });
+
+    $(document).ready(function() {
+              $('.owl-carousel').owlCarousel({
+                items: 1,
+                loop: true,
+                center: true,
+                margin: 0,
+                callbacks: true,
+                URLhashListener: true,
+                autoplayHoverPause: true,
+                startPosition: 'URLHash'
+              });
+            })
 
 });

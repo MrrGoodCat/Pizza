@@ -26,6 +26,7 @@ body textarea:required:valid {
 body {
 	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
+    background-color: black
 }
 
 /*   Custom Links   */
@@ -205,4 +206,7 @@ header {
     background-color: rgba(0, 0, 0, .3);
 }
 
+.owl-carousel {
+    float: left;
+}
 
