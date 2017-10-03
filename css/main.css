@@ -190,8 +190,8 @@ ul li {
 /*   Site Navigation End   */
 
 header {
-    position: relative;
-    display: grid;
+/*    position: relative;*/
+/*    display: grid;*/
     background: url(../images/bg-blured.jpg);
     background-repeat: no-repeat;
     background-position: top center;
@@ -201,12 +201,21 @@ header {
     background-color: rgba(0, 0, 0, .8);
 }
 .bg-dark {
+    float: inherit;
     width: 100%;
     min-height: 860px;
     background-color: rgba(0, 0, 0, .3);
 }
 
 .owl-carousel {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
     float: left;
 }
 
+h4 {
+    color: white;
+}
