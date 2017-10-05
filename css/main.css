@@ -140,7 +140,7 @@ a:active .fa-circle{
     
     background-color: rgba(0, 0, 0, .35);
 }
-.row {
+.row-header {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -219,4 +219,17 @@ header {
 
 h4 {
     color: white;
+}
+
+.carousel-container {
+/*    width: 70%;*/
+    margin: auto;
+}
+
+.pizza-top {
+    background-image: url(../images/neapolitana.png);
+        background-repeat: no-repeat;
+    background-position: top center;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
